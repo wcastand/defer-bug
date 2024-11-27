@@ -1,0 +1,16 @@
+{
+	"name": "defer-bug",
+	"private": "true",
+	"workspaces": ["server", "expo"],
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	},
+	"resolutions": {
+		"graphql": "^16.9.0"
+	},
+	"version": "1.0.0",
+	"scripts": {
+		"android": "expo run:android",
+		"ios": "expo run:ios"
+	}
+}
