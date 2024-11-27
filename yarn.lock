@@ -2133,6 +2133,18 @@
     "@babel/runtime" "^7.13.10"
     "@radix-ui/react-compose-refs" "1.0.0"
 
+"@react-native-async-storage/async-storage@1.23.1":
+  version "1.23.1"
+  resolved "https://registry.yarnpkg.com/@react-native-async-storage/async-storage/-/async-storage-1.23.1.tgz#cad3cd4fab7dacfe9838dce6ecb352f79150c883"
+  integrity sha512-Qd2kQ3yi6Y3+AcUlrHxSLlnBvpdCEMVGFlVBneVOjaFaPU61g1huc38g339ysXspwY1QZA2aNhrk/KlHGO+ewA==
+  dependencies:
+    merge-options "^3.0.4"
+
+"@react-native-community/netinfo@11.4.1":
+  version "11.4.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-11.4.1.tgz#a3c247aceab35f75dd0aa4bfa85d2be5a4508688"
+  integrity sha512-B0BYAkghz3Q2V09BF88RA601XursIEA111tnc2JOaN7axJWmNefmfjZqw/KdSxKZp7CZUuPpjBmz/WCR9uaHYg==
+
 "@react-native/assets-registry@0.76.3":
   version "0.76.3"
   resolved "https://registry.yarnpkg.com/@react-native/assets-registry/-/assets-registry-0.76.3.tgz#c31e91b6f60fed7b0bfc1af617e3a61218d1ec08"
@@ -2654,6 +2666,15 @@
     "@0no-co/graphql.web" "^1.0.5"
     wonka "^6.3.2"
 
+"@urql/exchange-graphcache@^7.2.1":
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@urql/exchange-graphcache/-/exchange-graphcache-7.2.1.tgz#43bc01c8069933fa37cecd4e68bce7b24ccea816"
+  integrity sha512-ag7uFfIoowQOMDjkYLPMyBZIsEvh91ctVFkwJOqj6HAPcpXEl00JGKsSJceza2YLzsoAsYhrs1/SRq2DVuiUUA==
+  dependencies:
+    "@0no-co/graphql.web" "^1.0.5"
+    "@urql/core" "^5.0.0"
+    wonka "^6.3.2"
+
 "@urql/exchange-retry@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@urql/exchange-retry/-/exchange-retry-1.3.0.tgz#c46abdf74aee612645ff47562e6c6868ad1731dd"
@@ -2661,6 +2682,16 @@
   dependencies:
     "@urql/core" "^5.0.0"
     wonka "^6.3.2"
+
+"@urql/introspection@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@urql/introspection/-/introspection-1.1.0.tgz#6fa6c2ad9da8af880fdcd002ad7e347ed75f581b"
+  integrity sha512-iszKR3HPABV8ArgfjlWQwgQ3sjZh1eDmAICCMnj3IDLycm8AhK2FKdy8P9M6biOVsy+BfPblYShfB9lynneLgg==
+
+"@urql/storage-rn@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@urql/storage-rn/-/storage-rn-1.1.0.tgz#b086680f88f7491aed1c9f43913842a41900112c"
+  integrity sha512-PgLdcZXVPnP8u0TnVXkaGJ1CoE1ouaYrW5TZFv7c72EyUWfDA2bznQQxLrRT4Y0mBWUD8eg3Z3cV2uX/JsPx9Q==
 
 "@web3-storage/multipart-parser@^1.0.0":
   version "1.0.0"
@@ -4955,7 +4986,12 @@ graphql-yoga@^5.10.3:
     lru-cache "^10.0.0"
     tslib "^2.5.2"
 
-graphql@16.6.0, graphql@^16.9.0:
+graphql@16.6.0:
+  version "16.6.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
+  integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
+
+graphql@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.9.0.tgz#1c310e63f16a49ce1fbb230bd0a000e99f6f115f"
   integrity sha512-GGTKBX4SD7Wdb8mqeDLni2oaRGYQWjWHGKPQ24ZMnUtKfcsVoiv4uX8+LJr1K6U5VW2Lu1BwJnj7uiori0YtRw==
@@ -5387,6 +5423,11 @@ is-path-inside@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/is-path-inside/-/is-path-inside-3.0.3.tgz#d231362e53a07ff2b0e0ea7fed049161ffd16283"
   integrity sha512-Fd4gABb+ycGAmKou8eMftCupSir5lRxqf4aD/vd0cD2qc4HL07OjCeuHMr8Ro4CoMaeCKDB0/ECBOVWjTwUvPQ==
+
+is-plain-obj@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/is-plain-obj/-/is-plain-obj-2.1.0.tgz#45e42e37fccf1f40da8e5f76ee21515840c09287"
+  integrity sha512-YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA==
 
 is-plain-object@^2.0.4:
   version "2.0.4"
@@ -6387,6 +6428,13 @@ memoize-one@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-6.0.0.tgz#b2591b871ed82948aee4727dc6abceeeac8c1045"
   integrity sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==
+
+merge-options@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/merge-options/-/merge-options-3.0.4.tgz#84709c2aa2a4b24c1981f66c179fe5565cc6dbb7"
+  integrity sha512-2Sug1+knBjkaMsMgf1ctR1Ujx+Ayku4EdJN4Z+C2+JzoeF7A3OZ9KM2GY0CpQS51NR61LTurMJrRKPhSs3ZRTQ==
+  dependencies:
+    is-plain-obj "^2.1.0"
 
 merge-stream@^2.0.0:
   version "2.0.0"

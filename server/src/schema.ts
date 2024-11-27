@@ -30,7 +30,7 @@ const resolvers = {
 	},
 	User: {
 		balance: async () => {
-			await setTimeout$(10);
+			await setTimeout$(1500);
 			return {
 				amount: 100.0,
 				currency: "USD",
